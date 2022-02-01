@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: green;
+}
+li:active {
+    background-color: gold;
+}
+ol, ul {
+    list-style: none;
+}
