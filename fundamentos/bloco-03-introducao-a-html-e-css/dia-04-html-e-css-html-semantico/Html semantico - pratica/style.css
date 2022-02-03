@@ -1,0 +1,39 @@
+#nome{
+    font-style: italic;
+}
+
+header{
+    width: 100%;
+    border: 1px solid red;
+    background-color: wheat;
+}
+
+table, tr, th, td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+main{
+    display:inline-block;
+    vertical-align: middle;
+    width: 70%;
+    border: 1px solid red;
+    background-color: wheat;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link li {
+    display: inline-block;
+    width: 200px;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid red;
+    background-color: wheat;
+    float: right;
+    padding: 9%;
+}
