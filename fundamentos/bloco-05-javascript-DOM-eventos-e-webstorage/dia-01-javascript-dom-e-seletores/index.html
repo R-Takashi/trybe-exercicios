@@ -84,6 +84,14 @@
         }
         paragraphUpperCase();
 
+        function showParagraphs(){
+            let paragraph = document.getElementsByTagName('p');
+            for(let index in paragraph){
+                console.log(paragraph[index].innerHTML);
+            }
+        }
+        showParagraphs();
+
     </script>
   </body>
 </html>
