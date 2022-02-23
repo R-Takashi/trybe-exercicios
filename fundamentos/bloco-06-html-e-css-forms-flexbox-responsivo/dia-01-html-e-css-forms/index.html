@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Trybe Trip</h1></header>
+    <form action="">
+        <fieldset>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" maxlength="40" minlength="10" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" maxlength="50" minlength="10">
+            <br>
+
+            <label for="destino1">
+                <input type="radio" name="destinos" id="destino1">Cidade
+            </label>
+            <label for="destino2">
+                <input type="radio" name="destinos" id="destino2">Campo
+            </label>
+            <label for="destino3">
+                <input type="radio" name="destinos" id="destino3">Praia
+            </label>
+            <label for="destino4">
+                <input type="radio" name="destinos" id="destino4">Montanhas
+            </label>
+            <br>
+            <label for="motivo">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label><br>
+            <textarea name="motivo" id="motivo" cols="30" rows="10" maxlength="500"></textarea>
+            <br>
+            <label for="data">Qual a melhor data para realizar sua viagem?</label>
+            <input type="date" name="data" id="data">
+            <br>
+            <label for="promo">
+                <input type="checkbox" name="promo" id="promo">
+                Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
+            </label>
+            <br>
+            <label for="permissao">
+                <input type="checkbox" name="permissao" id="permissao">
+                Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+            </label>
+        </fieldset>
+        <button type="submit" id="submit">Enviar</button>
+        <button type="reset" id='reset'>Limpar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
